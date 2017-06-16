@@ -1,0 +1,40 @@
+
+.title{
+    text-align: center;
+}
+.customers {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.employee {
+    flex: 1 1 23%;
+    margin: 10px 10px 20px 10px;
+}
+.people{
+    height: 200px;
+    width: 200px;
+}
+.name{
+    text-decoration: underline;
+    text-decoration-color: limegreen;
+    text-transform: uppercase;
+    color: black;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+.email{
+    color: lightgray;
+    padding-bottom: 10px;
+}
+.address{
+    text-transform: capitalize;
+}
+.city{
+    text-transform: capitalize;
+}
+.birthday{
+    color: lightgreen;
+    text-shadow: 1px 1px 10px darkgreen;
+    padding-top: 15px;
+}
